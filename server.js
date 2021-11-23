@@ -31,7 +31,7 @@ db.on("error", error => {
     console.log("Database Error:", error);
 });
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workouts",   {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget",   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
